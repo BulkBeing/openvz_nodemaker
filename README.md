@@ -9,5 +9,6 @@ Modifies /etc/sysctl.conf to contain all necessary settings including ip forward
 
 Disables selinux.
 
-Creating binary:
-GOOS=linux go build .
+Execution:
+
+On hostnode, run "./openvz_nodemaker" after downloading the binary in the repo.
